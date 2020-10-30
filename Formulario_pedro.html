@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Formulário Pedro rafael
+    </title>
+</head>
+
+<body>
+
+
+    <h2 align="center">Formulário</h2>
+    <form action="pagina-de-coleta-de-dados" method="POST">
+        <fieldset>
+            <legend align="center">Dados Pessoais</legend>
+            <label for="Nome">Nome:</label>
+            <input type="text" name="Nome">
+            <br>
+            <label for="Endereço">Endereço:</label>
+            <input type="text" name="Endereço">
+            <br>
+            <label for="Estado">Estado:</label>
+            <select name="Estado">
+                <option value="1">Acre (AC)</option>
+                <option value="2">Alagoas (AL)</option>
+                <option value="3">Amapá (AP)</option>
+                <option value="4">Amazonas (AM)</option>
+                <option value="5">Bahia (BA)</option>
+                <option value="6">Ceará (CE)</option>
+                <option value="7">Distrito Federal (DF)</option>
+                <option value="8">Espírito Santo (ES)</option>
+                <option value="9">Goiás (GO)</option>
+                <option value="10">Maranhão (MA)</option>
+                <option value="11">Mato Grosso (MT)</option>
+                <option value="12">Mato Grosso do Sul (MS)</option>
+                <option value="13">Minas Gerais (MG)</option>
+                <option value="14">Pará (PA)</option>
+                <option value="15">Paraíba (PB)</option>
+                <option value="16">Paraná (PR)</option>
+                <option value="17">Pernambuco (PE)</option>
+                <option value="18">Piauí (PI)</option>
+                <option value="19">Rio de Janeiro (RJ)</option>
+                <option value="20">Rio Grande do Norte (RN)</option>
+                <option value="21">Rio Grande do Sul (RS)</option>
+                <option value="22">Rondônia (RO)</option>
+                <option value="23">Roraima (RR)</option>
+                <option value="24">Santa Catarina (SC)</option>
+                <option value="25">São Paulo (SP)</option>
+                <option value="26">Sergipe (SE)</option>
+                <option value="27">Tocantins (TO)</option>
+            </select>
+            <br>
+            <label for="Cidade">Cidade:</label>
+            <input type="text" name="Cidade">
+
+
+        </fieldset>
+        <fieldset>
+            <legend align="center">Dados Profissionais</legend>
+            <label for="Natureza">Natureza do Cargo</label>
+            <br>
+            <input type="radio" name="Natureza" value="Gerencia">Gerência
+            <input type="radio" name="Natureza" value="Financeiro">Financeiro
+            <input type="radio" name="Natureza" value="Recepçao">Recepção
+            <input type="radio" name="Natureza" value="Administrativo">Administrativo
+            <input type="radio" name="Natureza" value="Juridico">Jurídico
+            <br>
+            <br>
+            <label for="Area">Área de Interesse </label>
+            <br>
+            <input type="checkbox" name="Area" value="1">Computação
+            <input type="checkbox" name="Area" value="2">Licenciatura da Computação
+            <input type="checkbox" name="Area" value="3">Direito
+            <input type="checkbox" name="Area" value="4">Engenharia
+            <input type="checkbox" name="Area" value="5">Medicina
+            <div>
+                <br>
+                <label for="caixa">Mini Curriculo:</label>
+                <br>
+                <textarea name="caixa" cols="40" rows="10"></textarea>
+            </div>
+
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+
+</html>
